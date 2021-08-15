@@ -1,0 +1,22 @@
+.submenu {
+  margin-left: 2em;
+}
+
+.navbar {
+  margin-top: 10px;
+}
+
+.navbar-brand {
+  color: black;
+  padding-left: 100px;
+}
+
+.nav-link {
+  color: black;
+ 
+}
+
+.navitembackground:hover {
+  background-color: lightgrey;
+  border-radius: 10%;
+}
