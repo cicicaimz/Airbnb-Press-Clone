@@ -67,12 +67,25 @@
               </div>
             </li>
 
-             <li class="nav-item">
+             
 
-              <a class="nav-link" href="#" >
-              <i class="fas fa-search"></i>Search</a>
               
-            </li>
+           
+
+              <div class="btn-group dropleft">
+                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="fas fa-search"></i>Search
+                </button>
+                <div class="dropdown-menu">
+                  <!-- Dropdown menu links -->
+                  <form class="form-group">
+                    <input type="search" placeholder="What are you looking for " aria-label="Search">
+                 </form>
+
+                </div>
+              </div>
+              
+           
 
          </ul>
         </div>
@@ -95,14 +108,14 @@
                   </li>
                   <li>
                     <select class="form-control" id="exampleFormControlSelect1">
-                      <option><a class="dropdown-item" href="#">English</a></option>
+                      <option><a class="dropdown-item text-dark" href="#">English</a></option>
                       
-                      <!--the following four options should be the "sub-options" for "English"-->
+                      <!--the following four options should be the "sub-options" for "English"??-->
                       
-                        <option class="submenu"><a class="submenu">AU and NZ</a></option>
-                        <option class="submenu"><a class="dropdown-item">India</a></option>
-                        <option class="submenu"><a class="dropdown-item">Malaysia</a></option>
-                        <option class="submenu"><a class="dropdown-item">United Kingdom</a></option>
+                        <option class="submenu"><a class="submenu text-dark">AU and NZ</a></option>
+                        <option class="submenu"><a class="dropdown-item text-dark">India</a></option>
+                        <option class="submenu"><a class="dropdown-item text-dark">Malaysia</a></option>
+                        <option class="submenu"><a class="dropdown-item text-dark">United Kingdom</a></option>
    
                     
 
@@ -110,29 +123,29 @@
                      
                      
                       <option>
-                        <a class="dropdown-item" href="#">Deutsch</a>
+                        <a class="dropdown-item text-dark" href="#">Deutsch</a>
                       </option>
-                      <option><a class="dropdown-item" href="#">Español (América Latina)</a>
+                      <option><a class="dropdown-item text-dark" href="#">Español (América Latina)</a>
                       </option>
-                      <option><a class="dropdown-item" href="#">Español (España)</a>
+                      <option><a class="dropdown-item text-dark" href="#">Español (España)</a>
                       </option>
-                      <option><a class="dropdown-item" href="#">Français</a>
+                      <option><a class="dropdown-item text-dark" href="#">Français</a>
                       </option>
-                      <option><a class="dropdown-item" href="#">Italiano</a>
+                      <option><a class="dropdown-item text-dark" href="#">Italiano</a>
                       </option>
-                      <option><a class="dropdown-item" href="#">Português (Brasil)</a>
+                      <option><a class="dropdown-item text-dark" href="#">Português (Brasil)</a>
                       </option>
-                      <option><a class="dropdown-item" href="#">Português (Portugal)</a>
+                      <option><a class="dropdown-item text-dark" href="#">Português (Portugal)</a>
                       </option>
-                      <option><a class="dropdown-item" href="#">简体中文</a>
+                      <option><a class="dropdown-item text-dark" href="#">简体中文</a>
                       </option>
-                      <option><a class="dropdown-item" href="#">繁體中文 (香港)</a>
+                      <option><a class="dropdown-item text-dark" href="#">繁體中文 (香港)</a>
                       </option>
-                      <option><a class="dropdown-item" href="#">日本語</a>
+                      <option><a class="dropdown-item text-dark" href="#">日本語</a>
                       </option>
-                      <option><a class="dropdown-item" href="#">한국어</a>
+                      <option><a class="dropdown-item text-dark" href="#">한국어</a>
                       </option>
-                      <option><a class="dropdown-item" href="#">ไทย</a>
+                      <option><a class="dropdown-item text-dark" href="#">ไทย</a>
                       </option>
                     </select>
                    
@@ -155,15 +168,15 @@
      <hr>
 
     <!--main content 1 -->
-  <div class="container">
+  <div class="container container-1">
       <div class="row">
          <div class="col-12 col-md-8">
           <img src="images/lili-kovac-BSQq5dRT_KU-unsplash (1).jpg" class="img-fluid" alt="Responsive image">
          </div>
 
-         <div class="col-12 col-md-4 align-content-start maincontent1">
-           <h6>August 3, 2021</h6>
-           <a href="#"><h3>Meet the 12 participants chosen to Live Anywhere on Airbnb</h3></a>
+         <div class="col-12 col-md-4 content1-text">
+           <h6 class="text-muted">August 3, 2021</h6>
+           <a class="text-dark" href="#"><h3>Meet the 12 participants chosen to Live Anywhere on Airbnb</h3></a>
            <p>Airbnb introduces the 12 participants who will “Live Anywhere on Airbnb” for the next year, selected from more than 314,000 inspiring applicants.</p>
         
          </div>
@@ -171,40 +184,46 @@
    </div>
 
    <!--main content 2 -->
-   <div class="container">
+   <div class="container container-2">
    
     <h3>Latest News</h3>
   
      <div class="row">
       
         <div class="col-12 col-md-4 col-lg-3">
-           <img src="images/latestnewspic1.jpg" class="img-fluid">
-           <h6>August 3, 2021</h6>
-           <a href="#"><h5>Supporting and empowering survivors</h5></a>
+           <a href="#"><img src="images/latestnewspic1.jpg" class="img-fluid"></a>
+           <h6 class="text-muted pt-3">August 3, 2021</h6>
+           <a class="text-dark" href="#"><h5>Supporting and empowering survivors</h5></a>
            <p>Arbitration provisions will no longer apply to sexual assault or sexual harassment claims by Hosts or guests in the next iteration of Airbnb's Terms of Service.</p>
        </div>
        <div class="col-12 col-md-4 col-lg-3">
-          <img src="images/latestnews2.jpg" class="img-fluid">
-          <h6>August 12, 2021</h6>
-          <a href="#"><h5>Airbnb second quarter 2021 financial results</h5></a>
+          <a href="#"><img src="images/latestnews2.jpg" class="img-fluid"></a>
+          <h6 class="text-muted pt-3">August 12, 2021</h6>
+          <a class="text-dark" href="#"><h5>Airbnb second quarter 2021 financial results</h5></a>
           <p>We are issuing Airbnb’s second quarter 2021 financial results.</p>
        </div>
        <div class="col-12 col-md-4 col-lg-3">
-          <img src="images/latestnews3.jpg" class="img-fluid">
-          <h6>August 3, 2021</h6>
-          <a href="#"><h5>Costa Rica by Land, an initiative to promote responsible tourism recovery
+          <a href="#"><img src="images/latestnews3.jpg" class="img-fluid"></a>
+          <h6 class="text-muted pt-3">August 3, 2021</h6>
+          <a class="text-dark" href="#"><h5>Costa Rica by Land, an initiative to promote responsible tourism recovery
           </h5></a>
           <p>This new partnership aims to boost the revival of international tourism to Costa Rica and promote safe, responsible and sustainable travel through two curated road trip routes.</p>
        </div>
-       <div class="col-12 col-md-8 col-lg-3 border border-dark rounded-sm">
-          <h3>Follow Us</h3>
-          <h5>Get the latest news and travel inspiration.</h5>
-          <ul class="list-inline">
-            <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
-            <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
-            <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-            <li class="list-inline-item"></li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-          </ul>
+
+       <div class="col-12 col-md-8 col-lg-3">
+          <div class="card card-text1">
+          
+            <h5>Follow Us</h5>
+            <p>Get the latest news and travel inspiration.</p>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#"><i class="fab fa-twitter text-dark"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fab fa-instagram text-dark"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in text-dark"></i></a></li>
+                <li class="list-inline-item"></li><a href="#"><i class="fab fa-facebook-f text-dark"></i></a></li>
+           </ul>
+          
+        </div>
+      
       </div>
    </div>
   
@@ -212,56 +231,56 @@
 
   <!--maincontent 3-->
   <div style="background: #222;">
-     <div class="container text-white">
+     <div class="container container-3 text-white">
         <div class="row">
-           <div class="col-12 col-lg-3">
+           <div class="col-12 col-lg-4">
               <h3>Meet Our Hosts</h3>
               <p>Our global network of Hosts have earned $110 billion on Airbnb by providing local, authentic travel experiences for guests in about 100,000 cities around the world.</p>
            </div>
 
-           <div class="col-12 col-lg-9">
-            <button>View all</button>
+           <div class="col-12 col-lg-8">
+            <a href="#"><button>View all</button></a>
            </div>
        </div>
 
        <div class="row overflow-auto">
           <div class="col-12 col-md-5 col-lg-4 col-xl-2">
-             <div class="card btn-secondary">
+             <div class="card bg-dark">
             
-              <a href="#"><img src="images/mcontent3-1.jpeg" class="card-img-top"><h6>Meet the women who host to fuel their creative & entrepreneurial spirit</h6></a>
+              <a class="text-white" href="#"><img src="images/mcontent3-1.jpeg" class="card-img-top"><h6 class="card-text">Meet the women who host to fuel their creative & entrepreneurial spirit</h6></a>
 
              </div>
           </div>
 
          <div class="col-12 col-md-5 col-lg-4 col-xl-2">
-             <div class="card btn-secondary">
+             <div class="card bg-dark">
             
-              <a href="#"><img src="images/mcontent3-1.jpeg" class="card-img-top"><h6>Meet the trailblazing female Hosts of Olympian and Paralympian Experiences</h6></a>
+              <a class="text-white" href="#"><img src="images/mcontent3-1.jpeg" class="card-img-top"><h6 class="card-text">Meet the trailblazing female Hosts of Olympian and Paralympian Experiences</h6></a>
               </div>
          </div>
          <div class="col-12 col-md-5 col-lg-4 col-xl-2">
-            <div class="card btn-secondary">
+            <div class="card bg-dark">
            
-              <a href="#"><img src="images/mcontent3-2.jpeg" class="card-img-top"><h6>Creative Hosts share tips for creating the ultimate hosted stay in 2021</h6></a>
+              <a class="text-white" href="#"><img src="images/mcontent3-2.jpeg" class="card-img-top"><h6 class="card-text">Creative Hosts share tips for creating the ultimate hosted stay in 2021</h6></a>
             </div>
          </div>
         <div class="col-12 col-md-5 col-lg-4 col-xl-2">
-            <div class="card btn-secondary">
+            <div class="card bg-dark">
             
-              <a href="#"><img src="images/mcontent3-3.jpeg" class="card-img-top"><h6>Celebrating our Hosts on UN International Day of People with Disabilities</h6></a>
+              <a class="text-white" href="#"><img src="images/mcontent3-3.jpeg" class="card-img-top"><h6 class="card-text">Celebrating our Hosts on UN International Day of People with Disabilities</h6></a>
            </div>
         </div>
         <div class="col-12 col-md-5 col-lg-4 col-xl-2">
-            <div class="card btn-secondary">
+            <div class="card bg-dark">
             
         
-              <a href="#"><img src="images/mcontent-3-4.jpeg" class="card-img-top"><h6>Our community of teacher Hosts</h6></a>
+              <a class="text-white" href="#"><img src="images/mcontent-3-4.jpeg" class="card-img-top"><h6 class="card-text">Our community of teacher Hosts</h6></a>
            </div>
         </div>
         <div class="col-12 col-md-5 col-lg-4 col-xl-2">
-           <div class="card btn-secondary">
+           <div class="card bg-dark">
            
-              <a href="#"><img src="images/mcontent3-5.jpeg" class="card-img-top"><h6>Our community of senior Hosts</h6></a>
+              <a class="text-white" href="#"><img src="images/mcontent3-5.jpeg" class="card-img-top"><h6 class="card-text">Our community of senior Hosts</h6></a>
            </div>
         </div>
       </div>
@@ -271,11 +290,12 @@
  
 
     <!--maincontent 4-->
-  <div class="container">
+  <div class="container container-4">
      <h2>Categories</h2>
-     <nav>
+     
+     <nav class="category-nav">
       
-        <a href="#"><button type="button" class="btn btn-outline-dark rounded-pill">all</button></a>
+        <a href="#"><button type="button" class="btn btn-outline-dark rounded-pill active">all</button></a>
         <a href="#"></a><button type="button" class="btn btn-outline-dark rounded-pill">Company</button><a href="#"></a>
         <a href="#"><button type="button" class="btn btn-outline-dark rounded-pill">Stays</button></a>
         <a href="#"></a><button type="button" class="btn btn-outline-dark rounded-pill">Experiences</button><a href="#"></a>
@@ -291,165 +311,170 @@
        <div class="col-12 col-lg-4">
           
               
-                <img src="images/categories1.webp" class="img-fluid">
+         <img src="images/categories1.webp" class="img-fluid">
                
-                 <h6>August 12, 2021</h6>
-                 <a href="#"><h5>Airbnb second quarter 2021 financial results</h5></a>
-                 <p>We are issuing Airbnb’s second quarter 2021 financial results.</p>
+         <h6 class="text-muted pt-3">August 12, 2021</h6>
+         <a  class="text-dark"href="#"><h5>Airbnb second quarter 2021 financial results</h5></a>
+        <p class="pb-4">We are issuing Airbnb’s second quarter 2021 financial results.</p>
                 
          
        </div>
        
        <div class="col-12 col-lg-4">
           <img src="images/categories2.webp" class="img-fluid">
-          <h6>August 12, 2021</h6>
-          <a href="#"><h5>Costa Rica by Land, an initiative to promote responsible tourism recovery</h5></a>
-          <p>This new partnership aims to boost the revival of international tourism to Costa Rica and promote safe, responsible and sustainable travel through two curated road trip routes.</p>
+          <h6 class="text-muted pt-3">August 12, 2021</h6>
+          <a class="text-dark" href="#"><h5>Costa Rica by Land, an initiative to promote responsible tourism recovery</h5></a>
+          <p class="pb-4">This new partnership aims to boost the revival of international tourism to Costa Rica and promote safe, responsible and sustainable travel through two curated road trip routes.</p>
       </div>  
 
        <div class="col-12 col-lg-4">
           <img src="images/categories3.webp" class="img-fluid">
-          <h6>August 12, 2021</h6>
-          <a href="#"><h5>Progress report: The Great Rebalance of European Travel</h5></a>
-          <p>We are sharing an update on our progress with commitments to a safe and sustainable return of travel in collaboration with communities across Europe.</p>
+          <h6 class="text-muted pt-3">August 12, 2021</h6>
+          <a class="text-dark" href="#"><h5>Progress report: The Great Rebalance of European Travel</h5></a>
+          <p class="pb-4">We are sharing an update on our progress with commitments to a safe and sustainable return of travel in collaboration with communities across Europe.</p>
        </div>
 
      <div class="row">
       <div class="col-12 col-md-4 col-lg-3">
           <img src="images/category21.webp" class="img-fluid">
-          <a href="#"><h5>Progress report: The Great Rebalance of European Travel</h5></a>
-          <h6>August 9, 2021</h6>
+          <a class="text-dark"  href="#"><h5 class="pt-3">Progress report: The Great Rebalance of European Travel</h5></a>
+          <h6 class="pb-4 text-muted">August 9, 2021</h6>
       </div>
       <div class="col-12 col-md-4 col-lg-3">
           <img src="images/category22.webp" class="img-fluid">
-          <a href="#"><h5>The quirkiest roadside curiosities to inspire your next road trip</h5></a>
-          <h6>August 9, 2021</h6>
+          <a class="text-dark" href="#"><h5 class="pt-3">The quirkiest roadside curiosities to inspire your next road trip</h5></a>
+          <h6 class="pb-4 text-muted">August 9, 2021</h6>
       </div>
       <div class="col-12 col-md-4 col-lg-3">
          <img src="images/category23.webp" class="img-fluid">
-          <a href="#"><h5>Airbnb & Asheville support renters ahead of CDC moratorium expiration</h5></a>
-          <h6>August 5, 2021</h6>
+          <a class="text-dark" href="#"><h5 class="pt-3">Airbnb & Asheville support renters ahead of CDC moratorium expiration</h5></a>
+          <h6 class="pb-4 text-muted">August 5, 2021</h6>
       </div>
       <div class="col-12 col-md-4 col-lg-3">
          <img src="images/category24.webp" class="img-fluid">
-          <a href="#"><h5>NYSTIA and Airbnb partner to help guests roam the Empire State</h5></a>
-          <h6>August 4, 2021</h6>
+          <a class="text-dark" href="#"><h5 class="pt-3">NYSTIA and Airbnb partner to help guests roam the Empire State</h5></a>
+          <h6 class="pb-4 text-muted">August 4, 2021</h6>
       </div>
     </div>
 
     <div class="row">
       <div class="col-12 col-md-4 col-lg-3">
           <img src="images/category31.webp" class="img-fluid">
-          <a href="#"><h5>Airbnb launches 'Bollywood Insiders,' celebrating the world of Bollywood</h5></a>
-          <h6>August 5, 2021</h6>
+          <a class="text-dark" href="#"><h5 class="pt-3">Airbnb launches 'Bollywood Insiders,' celebrating the world of Bollywood</h5></a>
+          <h6 class="pb-4 text-muted">August 5, 2021</h6>
       </div>
       <div class="col-12 col-md-4 col-lg-3">
           <img src="images/category32.webp" class="img-fluid">
-          <a href="#"><h5>Airbnb announces partnership with UNESCO to promote cultural tourism</h5></a>
-          <h6>August 9, 2021</h6>
+          <a class="text-dark" href="#"><h5 class="pt-3">Airbnb announces partnership with UNESCO to promote cultural tourism</h5></a>
+          <h6 class="pb-4 text-muted">August 9, 2021</h6>
       </div>
       <div class="col-12 col-md-4 col-lg-3">
           <img src="images/category33.webp" class="img-fluid">
-          <a href="#"><h5>The quirkiest roadside curiosities to inspire your next road trip</h5></a>
-          <h6>August 5, 2021</h6>
+          <a class="text-dark" href="#"><h5 class="pt-3">The quirkiest roadside curiosities to inspire your next road trip</h5></a>
+          <h6 class="pb-4 text-muted">August 5, 2021</h6>
       </div>
       <div class="col-12 col-md-4 col-lg-3">
           <img src="images/category34.webp" class="img-fluid">
-          <a href="#"><h5>Airbnb & Asheville support renters ahead of CDC moratorium expiration</h5></a>
-          <h6>August 4, 2021</h6>
+          <a class="text-dark" href="#"><h5 class="pt-3">Airbnb & Asheville support renters ahead of CDC moratorium expiration</h5></a>
+          <h6 class="pb-4 text-muted">August 4, 2021</h6>
       </div>
     </div>
   
-    <a href="#"><button type="button" class="btn btn-outline-dark rounded">More</button></a>
+    <a href="#"><button type="button" class="btn btn-outline-dark rounded mt-5">More</button></a>
     
 </div>
 </div>
 
  
-<hr>
+
 
 <!--footer-->
-<div class="container">
+<div style="background: #DCDCDC;">
+ <div class="container container-5">
   <div class="row">
      <div class="col-12 col-lg-3">
-       <ul class="list-unstyled">ABOUT
-         <li><a href="#">How Airbnb works</a></li>
-         <li><a href="#">Newsroom</a></li>
-         <li><a href="#">Investors</a></li>
-         <li><a href="#">Airbnb Plus</a></li>
-         <li><a href="#">Airbnb Luxe</a></li>
-         <li><a href="#">HotelTonight</a></li>
-         <li><a href="#">Airbnb for Work</a></li>
-         <li><a href="#">Made possible by Hosts</a></li>
-         <li><a href="#">Careers</a></li>
-         <li><a href="#">Founders Letter</a></li>
+       <ul class="list-unstyled"><h6>ABOUT</h6>
+         <li><a class="text-dark" href="#">How Airbnb works</a></li>
+         <li><a class="text-dark" href="#">Newsroom</a></li>
+         <li><a class="text-dark" href="#">Investors</a></li>
+         <li><a class="text-dark" href="#">Airbnb Plus</a></li>
+         <li><a class="text-dark" href="#">Airbnb Luxe</a></li>
+         <li><a class="text-dark" href="#">HotelTonight</a></li>
+         <li><a class="text-dark" href="#">Airbnb for Work</a></li>
+         <li><a class="text-dark" href="#">Made possible by Hosts</a></li>
+         <li><a class="text-dark" href="#">Careers</a></li>
+         <li><a class="text-dark" href="#">Founders Letter</a></li>
        </ul>
-
-     </div>
+       <hr class="d-lg-none">
+    </div>
+    
 
      <div class="col-12 col-lg-3">
-      <ul class="list-unstyled">COMMUNITY
-        <li><a href="#">Diversity & Belonging</a></li>
-        <li><a href="#">Against Discrimination</a></li>
-        <li><a href="#">Accessibility</a></li>
-        <li><a href="#">Airbnb Associates</a></li>
-        <li><a href="#">Frontline Stays</a></li>
-        <li><a href="#">Guest Referrals</a></li>
-        <li><a href="#">Gift cards</a></li>
-        <li><a href="#">Airbnb.org</a></li>
+      <ul class="list-unstyled"><h6>COMMUNITY</h6>
+        <li><a class="text-dark" href="#">Diversity & Belonging</a></li>
+        <li><a class="text-dark" href="#">Against Discrimination</a></li>
+        <li><a class="text-dark" href="#">Accessibility</a></li>
+        <li><a class="text-dark" href="#">Airbnb Associates</a></li>
+        <li><a class="text-dark" href="#">Frontline Stays</a></li>
+        <li><a class="text-dark" href="#">Guest Referrals</a></li>
+        <li><a class="text-dark" href="#">Gift cards</a></li>
+        <li><a class="text-dark" href="#">Airbnb.org</a></li>
       </ul>
-       
+      <hr class="d-lg-none">
     </div>
 
     <div class="col-12 col-lg-3">
-      <ul class="list-unstyled">HOSTING
-        <li><a href="#">Host your home</a></li>
-        <li><a href="#">Host an Online Experience</a></li>
-        <li><a href="#">Host an Experience</a></li>
-        <li><a href="#">Responsible Hosting</a></li>
-        <li><a href="#">Refer hosts</a></li>
-        <li><a href="#">Resource Center</a></li>
-        <li><a href="#">Community Center</a></li>
+      <ul class="list-unstyled"><h6>HOSTING</h6>
+        <li><a class="text-dark" href="#">Host your home</a></li>
+        <li><a class="text-dark" href="#">Host an Online Experience</a></li>
+        <li><a class="text-dark" href="#">Host an Experience</a></li>
+        <li><a class="text-dark" href="#">Responsible Hosting</a></li>
+        <li><a class="text-dark" href="#">Refer hosts</a></li>
+        <li><a class="text-dark" href="#">Resource Center</a></li>
+        <li><a class="text-dark" href="#">Community Center</a></li>
       </ul>
+      <hr class="d-lg-none">
     </div>
 
     <div class="col-12 col-lg-3">
-      <ul class="list-unstyled">SUPPORT
-        <li><a href="#">Our COVID-19 Response</a></li>
-        <li><a href="#">Help Center</a></li>
-        <li><a href="#">Cancellation options</a></li>
-        <li><a href="#">Neighborhood Support</a></li>
-        <li><a href="#">Trust & Safety</a></li>
+      <ul class="list-unstyled"><h6>SUPPORT</h6>
+        <li><a class="text-dark" href="#">Our COVID-19 Response</a></li>
+        <li><a class="text-dark" href="#">Help Center</a></li>
+        <li><a class="text-dark" href="#">Cancellation options</a></li>
+        <li><a class="text-dark" href="#">Neighborhood Support</a></li>
+        <li><a class="text-dark" href="#">Trust & Safety</a></li>
       </ul>
-       
+      <hr class="d-lg-none">
     </div>
   </div>
    
   <div class="row">
     <div class="col-12 col-md-6">
-     <ul class="list-unstyled">DISCLAMIER
+     <ul class="list-unstyled pt-5"><h6>DISCLAMIER</h6>
       <li>The Airbnb Newsroom is aimed at journalists. All Homes and Experiences referenced on the Airbnb Newsroom are intended purely to inspire and illustrate. Airbnb does not recommend or endorse specific Home or Experience listings on the Airbnb platform.</li>
       </ul>
     </div>
   </div>
 
   <hr>
-  <div class="container">
+  <div class="container copyright">
     <ul class="list-inline">© 2021 Airbnb, Inc. All rights reserved
-      <li class="list-inline-item"><a href="#">Privacy</a></li>
-      <li class="list-inline-item"><a href="#">Terms</a></li>
-      <li class="list-inline-item"><a href="#">Sitemap</a></li>
+      <li class="list-inline-item"><a class="text-dark" href="#">Privacy</a></li>
+      <li class="list-inline-item"><a class="text-dark" href="#">Terms</a></li>
+      <li class="list-inline-item"><a class="text-dark" href="#">Sitemap</a></li>
     </ul>
    
-      <ul class="list-inline">
-       <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
-       <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
-       <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-       <li class="list-inline-item"></li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+      <ul class="list-inline copyright">
+       <li class="list-inline-item"><a href="#"><i class="fab fa-twitter text-dark"></i></a></li>
+       <li class="list-inline-item"><a href="#"><i class="fab fa-instagram text-dark"></i></a></li>
+       <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in text-dark"></i></a></li>
+       <li class="list-inline-item"></li><a href="#"><i class="fab fa-facebook-f text-dark"></i></a></li>
      </ul>
   </div>
 
   
+</div>
+
 </div>
 
 

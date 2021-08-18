@@ -11,10 +11,6 @@
   padding-left: 100px;
 }
 
-.nav-link {
-  color: black;
- 
-}
 
 .navitembackground:hover {
   background-color: lightgrey;
@@ -27,4 +23,59 @@
   }
 }
 
+
+
+.content1-text {
+  padding-top: 5%;
+}
+
+.container-2, .container-3,.container-4{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+
+.container-5 {
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
+
+
+.card-text1 {
+  padding-top: 10%;
+  padding-bottom: 4%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+@media (max-width: 992px) {
+  .card-text1 {
+    text-align: center;
+  }
+}
+
+.category-nav {
+  padding-top: 2%;
+  padding-bottom: 4%;
+}
+
+
+
+.card-text {
+  padding:10%;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+}
+
+* {
+  text-decoration: none;
+}
+
+
+.dropdown-toggle::after {
+  content: none;
+}
 
